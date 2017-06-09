@@ -334,6 +334,12 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>thirdparty</id>
+      <url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <skip_maven_deploy>false</skip_maven_deploy>
   </properties>
